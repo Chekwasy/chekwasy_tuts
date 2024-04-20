@@ -1,0 +1,15 @@
+open a file from within emacs ctrl-x ctrl-f and enter file name
+
+to save use ctrl-x ctrl-s
+
+cut entire line ctrl-k
+
+to paste ctrl-y
+
+search forward ctrl-s
+
+search backward ctrl-r
+
+to undo ctrl-x u
+
+quit emacs ctrl-x ctrl-c

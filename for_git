@@ -1,0 +1,15 @@
+to clone new repo from github to enable push and pull easy
+git clone https://token@github.com/Chekwasy/chekwasy_tuts.git
+
+
+to add updates to github
+git add .
+git commit -m "commit msg"
+git push
+
+create branch in git
+git checkout -b new_branch_name
+
+switch branch
+git checkout branch_name
+

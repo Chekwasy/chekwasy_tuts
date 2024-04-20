@@ -1,0 +1,44 @@
+for bash scripts
+#!/bin/bash
+
+creating new user on shell
+1. su rich
+
+prints the effective username of the current user
+2. id -un
+
+prints all the groups the current user is part of
+3. groups
+
+4. changes the owner of the file hello to the user rich
+sudo chown rich hello
+
+5.creates an empty file hello
+touch hello
+
+6. make an executable file hello created already
+chmod u+x hello
+
+7. adds execute permission to the owner and the group owner, and read permission to other users, to the file hello
+chmod 754 hello
+
+8. make executable for all users
+chmod a+x hello
+
+9. make permission for all others but not current user and group
+chmod 007 hello
+
+10. Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
+chmod -R a+x */
+
+11. changes the group owner to checks for the file hello on current directory
+chgrp checks hello
+
+12. changes the owner to Jude and the group owner to staff for all the files and directories in the working directory.
+
+By default, whosoever, creates the file becomes the owner of the file. A user can create, delete, or modify the file. Group: A group can contain multiple users. All the users belonging to a group have same access permission for a file.
+
+chown -R Jude:staff *
+
+13. changes the owner of the file hello to rich only if it is owned by the user jude
+chown --from=jude rich hello

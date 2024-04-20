@@ -1,0 +1,11 @@
+press i to enter insert mode
+
+press esc to exit insert mode
+
+press p to paste
+
+press u or :u to undo
+
+quit without saving by pressing :x or :q
+
+save and exit :qw
